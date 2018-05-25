@@ -5,11 +5,11 @@ Challenge is to build a product details page.
 ## Rules
 
 - The product details page can't be static.
-- All details should shown from `products.json`.
+- All details should be shown from `products.json`.
 
 ## Requirements
 
-- For each product we have multiple size and sources, you have to show following information must be present on the page:
+- For each product we have multiple size and sources, you have to show following information:
     - Image
     - Name
     - Available Sizes
