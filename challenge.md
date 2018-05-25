@@ -23,7 +23,6 @@ Challenge is to build a product details page.
 ## Bonus points
 
 - Easy as pie? So add more functionality to cart allowing users to add, remove and change quantity of cart items.
-- Want more challenges? Add a filter to show only products `on_sale` or a search box.
 - We like clean and testable code, right? Test your application and components, it will be a big bonus point.
 
 ## What we will evaluate
