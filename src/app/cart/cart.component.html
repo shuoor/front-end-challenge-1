@@ -32,7 +32,7 @@
               </div>
             </div>
           </td>
-          <td data-th="Price">{{obj.source_obj.discounted_price | currency:'USD':true}}</td>
+          <td data-th="Price">{{obj.source_obj.discounted_price | currency:'INR':true}}</td>
           <td data-th="Quantity">
             <app-cart-button [cartQuantity$]="cartQuantity$" [source_selected]="source_selected" [size_selected]="obj.selected_size"
               [data$.product]="dataProduct$" [prodQ]="obj.quantity"></app-cart-button>
