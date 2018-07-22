@@ -1,0 +1,15 @@
+<ng-container *ngIf="cartQuantityC == 1">
+  <div class="addMoreQBtn">
+
+    <button mat-icon-button color="primary" (click)="decreaseCart(pQ)" class="bg-orange no-radius text-white">
+      <mat-icon>remove</mat-icon>
+    </button>
+
+    <div class="text-quan">{{pQ}}</div>
+    <button mat-icon-button color="primary" (click)="increaseCart(pQ)" class="bg-orange no-radius text-white">
+      <mat-icon>add</mat-icon>
+    </button>
+  </div>
+
+
+</ng-container>

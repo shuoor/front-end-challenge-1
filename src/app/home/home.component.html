@@ -1,0 +1,104 @@
+<div class="home-container" *ngIf="data$">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="">Home</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="">Products</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="">Levis</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">{{data$.product.title}}</li>
+    </ol>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="preview col-md-6">
+
+        <div class="preview-pic tab-content">
+          <div class="tab-pane active" id="pic-1">
+            <img [src]="data$.product.image[0]" />
+          </div>
+
+        </div>
+      </div>
+      <div class="details col-md-6">
+        <h3 class="product-title">{{data$.product.title}}</h3>
+        <!-- <div class="rating">
+          <div class="stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <span class="review-no">41 reviews</span>
+        </div> -->
+        <p class="product-description">{{data$.product.description}}</p>
+
+        <!-- <span class="sizes">sizes:</span> -->
+        <div class="row">
+          <div class="col">
+            <mat-form-field>
+              <mat-select placeholder="Select Size" (selectionChange)="sizeSelect($event.value)" [(value)]="size_selected">
+                <mat-option *ngFor="let size of sizes$; let i=index" [value]="size">
+                  {{size}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="col">
+            <mat-form-field>
+              <mat-select [disabled]="!sources$" placeholder="Select Source" [(value)]="source_selected">
+                <mat-option>Select Source</mat-option>
+                <mat-option *ngFor="let source of sources$; let i = index" [value]="source.id">
+                  {{source.city || source.host}}
+                </mat-option>
+              </mat-select>
+              <mat-hint *ngIf="sources$">Sources Details Avaible in Below Tables</mat-hint>
+            </mat-form-field>
+          </div>
+        </div>
+
+        <div class="row mt-5" *ngIf="sources$">
+          <div class="col">
+            <table class="table table-bordered">
+              <thead class="bg-grey">
+                <tr>
+                  <th>City/Category</th>
+                  <th>Price</th>
+                  <th>Host</th>
+                  <th>Type</th>
+                  <th>Availability</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let source of sources$; let i = index">
+                  <td class="text-capitalize">{{source.city || source.category}}</td>
+                  <td>{{source.discounted_price | currency:'INR':true}}</td>
+                  <td class="text-capitalize">{{source.host}}</td>
+                  <td class="text-capitalize">{{source.source_type}}</td>
+                  <td class="text-center">
+                    <mat-icon *ngIf="source.isavailable == true">done</mat-icon>
+                    <mat-icon *ngIf="source.isavailable == false">clear</mat-icon>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+
+        <div class="action">
+          <button mat-raised-button class="bg-orange text-capitalize text-white" *ngIf="!cartQuantity$" [disabled]="!source_selected"
+            type="button" (click)="createCart(data$.product, size_selected, source_selected)">add to cart</button>
+          <app-cart-button [cartQuantity$]="cartQuantity$" [source_selected]="source_selected" [size_selected]="size_selected" [data$.product]="data$.product"
+            [prodQ]="prodQ"></app-cart-button>
+          <button mat-raised-button class="bg-orange mt-4 mb-5 text-white" *ngIf="cartQuantity$ == 1" routerLink="cart">View Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

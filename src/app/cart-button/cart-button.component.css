@@ -1,0 +1,14 @@
+.addMoreQBtn {
+  width: 70%;
+  display: flex;
+}
+.text-quan {
+  padding: 8px 15px;
+  /* border: 1px solid #ccc; */
+  text-align: center;
+  background-color: #ffd7b5;
+  width: 50%;
+}
+.no-radius {
+  border-radius: 0;
+}

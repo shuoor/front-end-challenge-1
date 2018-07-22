@@ -1,0 +1,50 @@
+.user-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+}
+
+.user-profile img {
+  width: 100%;
+  border-radius: 50%;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.profile-btn {
+  min-width: 40px;
+  padding: 0 10px;
+  /* background-color: #efefef; */
+}
+.box-shadow {
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+}
+.shopping-cart {
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  margin-right: 10px;
+}
+.mat-option-text {
+  text-transform: capitalize;
+}
+.my-badge {
+  position: absolute;
+  background-color: orange;
+  border-radius: 50%;
+  top: -5px;
+  left: 12px;
+  padding: 3px;
+  width: 15px;
+  height: 15px;
+  color: #fff;
+}
+.fixed-top {
+  z-index: 999;
+}

@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+@import "node_modules/bootstrap/dist/css/bootstrap.css";
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+.text-white {
+  color: #fff;
+}
+
+.text-grey {
+  color: #aaa;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-grey {
+  background-color: #aaa;
+}
+
+.text-orange {
+  color: orange;
+}
+.bg-orange {
+  background-color: orange;
+}
+.no-margin {
+  margin: 0;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-lighter {
+  font-weight: 100;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+ul {
+  list-style-type: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+.page-top-margin {
+  margin-top: 80px;
+}

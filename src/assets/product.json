@@ -1,0 +1,195 @@
+{
+    "metadata": {
+        "average_rate": "3",
+        "hasPurchased": true,
+        "rate": null
+    },
+    "product": {
+        "brand": "Levis",
+        "category": "Topwear",
+        "description": "Our tees and denim were made for each other. This one bears our world-famous Batwing logo; which mirrors the curved and pointed  arcuate design; stitched on our jeans' back pockets.",
+        "family": "casual",
+        "image": [
+            "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1b12cc01/images/hi-res/169600113/169600113_01_Front.jpg?sw=600&sh=600"
+        ],
+        "master_subid": "12515",
+        "product_id": "3302",
+        "sex": "Men",
+        "sku": "169600113",
+        "title": "LEVI'S® BATWING LOGO TEE",
+        "url": "",
+        "sizes": {
+            "L": {
+                "sources": [
+                    {
+                        "city": "Karnal",
+                        "discounted_price": "999",
+                        "host": "Suvidha Karnal",
+                        "id": "str_542",
+                        "isavailable": true,
+                        "source_type": "offline",
+                        "state": "Haryana",
+                        "stock": "6",
+                        "subid": "12517",
+                        "type": "TEE"
+                    },
+                    {
+                        "city": "Panipat",
+                        "discounted_price": "999",
+                        "host": "Suvidha Panipat",
+                        "id": "str_1193",
+                        "isavailable": true,
+                        "source_type": "offline",
+                        "state": "Haryana",
+                        "stock": "6",
+                        "subid": "12517",
+                        "type": "TEE"
+                    },
+                    {
+                        "city": "Yamuna Nagar",
+                        "discounted_price": "999",
+                        "host": "Suvidha Yamuna Nagar",
+                        "id": "str_1844",
+                        "isavailable": true,
+                        "source_type": "offline",
+                        "state": "Haryana",
+                        "stock": "4",
+                        "subid": "12517",
+                        "type": "TEE"
+                    }
+                ]
+            },
+            "M": {
+                "sources": [
+                    {
+                        "city": "Karnal",
+                        "discounted_price": "999",
+                        "host": "Suvidha Karnal",
+                        "id": "str_543",
+                        "isavailable": true,
+                        "source_type": "offline",
+                        "state": "Haryana",
+                        "stock": "4",
+                        "subid": "12516",
+                        "type": "TEE"
+                    },
+                    {
+                        "city": "Panipat",
+                        "discounted_price": "999",
+                        "host": "Suvidha Panipat",
+                        "id": "str_1196",
+                        "isavailable": true,
+                        "source_type": "offline",
+                        "state": "Haryana",
+                        "stock": "4",
+                        "subid": "12516",
+                        "type": "TEE"
+                    },
+                    {
+                        "city": "Yamuna Nagar",
+                        "discounted_price": "999",
+                        "host": "Suvidha Yamuna Nagar",
+                        "id": "str_1845",
+                        "isavailable": true,
+                        "source_type": "offline",
+                        "state": "Haryana",
+                        "stock": "2",
+                        "subid": "12516",
+                        "type": "TEE"
+                    }
+                ]
+            },
+            "S": {
+                "sources": [
+                    {
+                        "city": "Panipat",
+                        "discounted_price": "999",
+                        "host": "Suvidha Panipat",
+                        "id": "str_1194",
+                        "isavailable": true,
+                        "source_type": "offline",
+                        "state": "Haryana",
+                        "stock": "6",
+                        "subid": "12515",
+                        "type": "TEE"
+                    },
+                    {
+                        "city": "Karnal",
+                        "discounted_price": "999",
+                        "host": "Suvidha Karnal",
+                        "id": "str_544",
+                        "isavailable": true,
+                        "source_type": "offline",
+                        "state": "Haryana",
+                        "stock": "15",
+                        "subid": "12515",
+                        "type": "TEE"
+                    },
+                    {
+                        "city": "Yamuna Nagar",
+                        "discounted_price": "999",
+                        "host": "Suvidha Yamuna Nagar",
+                        "id": "str_1846",
+                        "isavailable": true,
+                        "source_type": "offline",
+                        "state": "Haryana",
+                        "stock": "4",
+                        "subid": "12515",
+                        "type": "TEE"
+                    },
+                    {
+                        "category": "Topwear",
+                        "discounted_price": "1104",
+                        "host": "myntra",
+                        "id": "src_2324",
+                        "isavailable": true,
+                        "source_type": "online",
+                        "stock": null,
+                        "subid": "12515",
+                        "type": "TEE"
+                    }
+                ]
+            },
+            "XL": {
+                "sources": [
+                    {
+                        "city": "Karnal",
+                        "discounted_price": "999",
+                        "host": "Suvidha Karnal",
+                        "id": "str_545",
+                        "isavailable": true,
+                        "source_type": "offline",
+                        "state": "Haryana",
+                        "stock": "4",
+                        "subid": "12518",
+                        "type": "TEE"
+                    },
+                    {
+                        "city": "Panipat",
+                        "discounted_price": "999",
+                        "host": "Suvidha Panipat",
+                        "id": "str_1195",
+                        "isavailable": true,
+                        "source_type": "offline",
+                        "state": "Haryana",
+                        "stock": "2",
+                        "subid": "12518",
+                        "type": "TEE"
+                    },
+                    {
+                        "city": "Yamuna Nagar",
+                        "discounted_price": "999",
+                        "host": "Suvidha Yamuna Nagar",
+                        "id": "str_1847",
+                        "isavailable": true,
+                        "source_type": "offline",
+                        "state": "Haryana",
+                        "stock": "4",
+                        "subid": "12518",
+                        "type": "TEE"
+                    }
+                ]
+            }
+        }
+    }
+}

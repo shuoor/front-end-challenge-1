@@ -1,0 +1,29 @@
+<div class="d-flex flex-column flex-md-row align-items-center p-1 px-md-4 fixed-top bg-white border-bottom box-shadow">
+  <!-- <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5> -->
+  <div class="navbar-brand my-0 mr-md-auto">
+    <h2 class="no-margin">LOGO</h2>
+  </div>
+  <div class="mr-md-auto col-5">
+    <input type="search" class="form-control" placeholder="Search">
+  </div>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <button mat-icon-button [disabled]="cartQ == 0" routerLink="cart">
+      <span class="badge badge-light my-badge">{{cartQ}}</span>
+      <mat-icon class="">shopping_cart</mat-icon>
+    </button>
+    <span>
+      <!-- <span class="badge"></span> -->
+    </span>
+    <span class="user-profile">
+      <img src="https://firebasestorage.googleapis.com/v0/b/gymday-25151.appspot.com/o/dummy_5.png?alt=media&token=8b20292e-a51e-4eae-b14f-73624d0393d5">
+    </span>
+    User Name
+    <button mat-button [matMenuTriggerFor]="menu" class="profile-btn">
+      <mat-icon>arrow_drop_down</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu" style="width: 100%">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+  </nav>
+</div>
